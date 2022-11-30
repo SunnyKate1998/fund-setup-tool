@@ -77,7 +77,7 @@ def main():
                 "Fund manager": "#54FBDD",
                 "Calendar": "#FFD069",
                 "Account base currency": "#F775E9",
-                "Valuation point": "#96F289"}
+                "Valuation point": "#D0FF97"}
     options = {"ents": ["Fund name"], "colors": colors}
     #displacy.serve(doc, style="ent", options=options)
 
