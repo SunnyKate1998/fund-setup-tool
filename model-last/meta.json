@@ -1,0 +1,76 @@
+{
+  "lang":"en",
+  "name":"pipeline",
+  "version":"0.0.0",
+  "spacy_version":">=3.4.3,<3.5.0",
+  "description":"",
+  "author":"",
+  "email":"",
+  "url":"",
+  "license":"",
+  "spacy_git_version":"Unknown",
+  "vectors":{
+    "width":0,
+    "vectors":0,
+    "keys":0,
+    "name":null,
+    "mode":"default"
+  },
+  "labels":{
+    "tok2vec":[
+
+    ],
+    "ner":[
+      "Account base currency",
+      "Calendar",
+      "Fund manager",
+      "Fund name",
+      "Valuation point"
+    ]
+  },
+  "pipeline":[
+    "tok2vec",
+    "ner"
+  ],
+  "components":[
+    "tok2vec",
+    "ner"
+  ],
+  "disabled":[
+
+  ],
+  "performance":{
+    "ents_f":0.8638965836,
+    "ents_p":0.9006546015,
+    "ents_r":0.8300212917,
+    "ents_per_type":{
+      "Fund name":{
+        "p":0.9496062992,
+        "r":0.8022172949,
+        "f":0.8697115385
+      },
+      "Fund manager":{
+        "p":0.9512516469,
+        "r":0.955026455,
+        "f":0.9531353135
+      },
+      "Calendar":{
+        "p":0.7351380042,
+        "r":0.9147952444,
+        "f":0.8151854032
+      },
+      "Account base currency":{
+        "p":0.9600363306,
+        "r":0.9454382826,
+        "f":0.952681388
+      },
+      "Valuation point":{
+        "p":0.9915611814,
+        "r":0.4226618705,
+        "f":0.5926860025
+      }
+    },
+    "tok2vec_loss":270.608257069,
+    "ner_loss":2227.6414564969
+  }
+}
