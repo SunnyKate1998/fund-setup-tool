@@ -4,7 +4,7 @@ import spacy
 # import joblib
 # import pickle
 from PyPDF2 import PdfReader
-from NERDA.models import NERDA
+#from NERDA.models import NERDA
 from spacy.tokens import Doc
 
 import json
